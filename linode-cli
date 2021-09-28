@@ -1,0 +1,34 @@
+---
+syntax:	linode-cli
+tags: [ personal ]
+---
+# To issue commands:
+linode-cli <command> <action>
+
+# To create a bucket:
+linode-cli obj mb <bucket>
+
+# To remove a bucket:
+linode-cli obj rb <bucket>
+
+# To upload a public object:
+linode-cli obj put --acl-public <object> <bucket>
+
+# To download an object:
+linode-cli obj get <bucket> <object>
+
+# To remove an object:
+linode-cli obj rm <bucket> <object>
+
+# To list all available buckets:
+linode-cli obj ls
+
+# To list all objects in a bucket:
+linode-cli obj ls <bucket>
+
+# To view object help:
+linode-cli obj --help
+
+# To update:
+pip3 install linode-cli --upgrade
+
