@@ -1,6 +1,5 @@
 ---
-syntax:	linode-cli
-tags: [ personal ]
+tags: [ personal, object storage ]
 ---
 # To issue commands:
 linode-cli <command> <action>
